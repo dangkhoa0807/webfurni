@@ -3,7 +3,7 @@
 			<div class="container relative">
 
 				<div class="sofa-img">
-					<img src="images/sofa.png" alt="Image" class="img-fluid">
+					<img src="images/Secretlab_s_first_PC_desk_is_the_ultimate_cable_management_solution___using_magnets__-_Yanko_Design-removebg-preview.png	" alt="Image" class="img-fluid">
 				</div>
 
 				<div class="row">
@@ -103,4 +103,3 @@
 			</div>
 		</footer>
 		<!-- End Footer Section -->	
-

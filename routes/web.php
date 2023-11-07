@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use PHPUnit\Framework\Attributes\Group;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +14,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('clients.home');
+Route::prefix('/')->group(function() {
+    Route::get('' ,function (){
+        return view('clients.home');
+    });
+    Route::get('/shop' ,function (){
+        return view('clients.shop');
+    });
+    Route::get('/about',function (){
+        return view('clients.about');
+    });
+    Route::get('/services',function (){
+        return view('clients.service');
+    });
+    Route::get('/blog',function (){
+        return view('clients.blog');
+    });
+    Route::get('/contact',function (){
+        return view('clients.contact');
+    });
 });
 
 

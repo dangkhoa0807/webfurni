@@ -11,7 +11,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="/Black Gold Illustration Gear Logo.png">
+  <link rel="shortcut icon" href="images/Black Gold Illustration Gear Logo.png">
 
   <meta name="description" content="" />
   <meta name="keywords" content="bootstrap, bootstrap4" />
@@ -28,13 +28,14 @@
 
 	<body>
 
-		 @include('clients.template.header')
+		@include('clients.template.header')
 
-		
+		@yield('hero')
 		
 		@yield('product')
 		
 		@yield('whyChooseSection')
+		@yield('productservices')
 		
 		@yield('weHelp')
 		
@@ -42,8 +43,8 @@
 
 		@yield('blog')
 
-	
-
+		
+		@yield('contact')
 
 		@include('clients.template.footer')
 		
