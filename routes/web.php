@@ -1,7 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+<<<<<<< HEAD
 use PHPUnit\Framework\Attributes\Group;
+=======
+>>>>>>> master
 
 /*
 |--------------------------------------------------------------------------
@@ -34,5 +37,8 @@ Route::prefix('/')->group(function() {
         return view('clients.contact');
     });
 });
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> master
